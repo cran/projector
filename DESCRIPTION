@@ -1,7 +1,7 @@
 Package: projector
 Title: Project Dense Vectors Representation of Texts on a 2D Plan
-Version: 0.0.1
-Date: 2017-09-27
+Version: 0.0.2
+Date: 2018-02-27
 Authors@R: person("Michaël", "Benesty", role = c("aut", "cre", "cph"), email = "michael@benesty.fr")
 Maintainer: Michaël Benesty <michael@benesty.fr>
 Description: Display dense vector representation of texts on a 2D plan to better
@@ -9,7 +9,7 @@ Description: Display dense vector representation of texts on a 2D plan to better
   It also includes an interactive application to change dynamically the pivot text.
 URL: https://github.com/pommedeterresautee/projector
 BugReports: https://github.com/pommedeterresautee/projector/issues
-Depends: R (>= 3.1)
+Depends: R (>= 3.4)
 Imports: methods, RcppAnnoy (>= 0.0.10), Rtsne, RColorBrewer, dbscan,
         plotly, assertthat, shiny, shinythemes, shinyjs
 Suggests: knitr, testthat, fastrtext, covr
@@ -18,7 +18,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-09-28 09:18:35 UTC; geantvert
+Packaged: 2018-02-27 13:56:52 UTC; geantvert
 Author: Michaël Benesty [aut, cre, cph]
 Repository: CRAN
-Date/Publication: 2017-09-28 10:42:07 UTC
+Date/Publication: 2018-02-27 14:11:58 UTC
